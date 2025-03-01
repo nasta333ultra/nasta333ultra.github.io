@@ -1,2 +1,1 @@
-# nasta333ultra.github.io
-Siberian Animals
+This is a worksace for experimental webpages about Siberian animals
