@@ -8,17 +8,14 @@
     <link rel="icon" href="logo.png" type="image/x-icon">
 </head>
 <body>
-<div class="navbar">        
-    <a href="index.html">Domů</a>        
-    <a href="rosomak.html">Rosomák Sibiřský</a>
-    <a href="vlk.html">Vlk obecný</a>
-    <a href="liskaobecna.html">Liška obecná</a>
-    <a href="liskapolarni.html">Liška polární</a>
-    <a href="medvedhnedy.html">Medvěd hnědý</a>
-    <a href="medvedledni.html">Medvěd lední</a>
-    <a href="sobpolarni.html">Sob polarní</a>
-    
-</div>    
+<div id="navbar"></div>        
+    <script>        
+        fetch('navbar.html')            
+            .then(response => response.text())            
+            .then(data => {                
+                document.getElementById('navbar').innerHTML = data;            
+            });    
+    </script> 
     <header>
         <h1> Zvěř Sibiře
         </h1> 
