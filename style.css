@@ -46,9 +46,11 @@ footer {
 }
 div.gallery {
   margin: 5px;
-  border: 1px solid #ccc;
+    border-radius: 25px;
+  border: 1px solid #cce6ff;
   float: left;
   width: 180px;
+    height: 240px;
 }
 
 div.gallery:hover {
