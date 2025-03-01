@@ -48,9 +48,10 @@ div.gallery {
   margin: 5px;
     border-radius: 25px;
   border: 1px solid #cce6ff;
-  float: left;
+  float: center;
   width: 180px;
     height: 240px;
+    background-color: #e6f2ff;
 }
 
 div.gallery:hover {
