@@ -51,5 +51,16 @@ Liška obecná se přizpůsobila různým podmínkám a není ohroženým druhem
 <p>
 Lišky jsou velmi chytré a mají výborný sluch – dokážou slyšet i pohyb hlodavců pod sněhem. Také komunikují širokou škálou zvuků, včetně štěkání a kňučení.
 </p>
+     <p> 
+    <div id="footer"></div>        
+    <script>        
+        fetch('footer.html')            
+            .then(response => response.text())            
+            .then(data => {                
+                document.getElementById('footer').innerHTML = data;            
+            });    
+    </script> 
+    </div>
+</p>
 </body>
 </html>
