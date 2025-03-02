@@ -43,6 +43,7 @@ header {
     color: white;
     padding: 10px;
     margin-top: 20px;
+    position: relative;
 }
 div.gallery {
   margin: 5px;
