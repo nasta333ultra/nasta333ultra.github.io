@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zvěř Sibiře: CZ Dokument</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+<div id="navbar"></div>        
+    <script>        
+        fetch('navbar.html')            
+            .then(response => response.text())            
+            .then(data => {                
+                document.getElementById('navbar').innerHTML = data;            
+            });    
+    </script> 
+    <header>
+        <h1> Zvěř Sibiře
+        </h1> 
+    </header>
+   <section>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c0KKLQRUMlA?si=ccs6jaZVk3gFZRYS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section> 
+  <div id="footer"></div>        
+    <script>        
+        fetch('footer.html')            
+            .then(response => response.text())            
+            .then(data => {                
+                document.getElementById('footer').innerHTML = data;            
+            });    
+    </script> 
+    </div>
+            
+</body>
+
+</html>
