@@ -51,5 +51,16 @@ Rosomáci jsou známí svou silou a houževnatostí, dokážou se bránit i mnoh
 <p>
 Tento druh hraje důležitou roli v ekosystému, a jeho ochrana je klíčová pro zachování biodiverzity v arktických a subarktických oblastech.
 </p>
+    <p> 
+    <div id="footer"></div>        
+    <script>        
+        fetch('footer.html')            
+            .then(response => response.text())            
+            .then(data => {                
+                document.getElementById('footer').innerHTML = data;            
+            });    
+    </script> 
+    </div>
+</p>
 </body>
 </html>
