@@ -52,5 +52,16 @@ Vlk obecný je předkem domácího psa a jeho chování a sociální struktura p
 <p>
 Vlk obecný hraje důležitou roli v ekosystému jako predátor a přispívá k udržení rovnováhy v přírodě. Ochrana tohoto druhu je důležitá pro zachování biodiverzity.
 </p>
+    <p> 
+    <div id="footer"></div>        
+    <script>        
+        fetch('footer.html')            
+            .then(response => response.text())            
+            .then(data => {                
+                document.getElementById('footer').innerHTML = data;            
+            });    
+    </script> 
+    </div>
+</p>
 </body>
 </html>
