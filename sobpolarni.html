@@ -49,6 +49,16 @@ Některé populace sobů jsou ohroženy úbytkem přirozeného prostředí a zm�
 <p>
 Na rozdíl od většiny jelenovitých mají parohy samci i samice. Sobí oči mění barvu podle ročního období – v létě jsou zlatavé, v zimě modré, což jim pomáhá vidět ve tmě.
 </p>
-
+<p> 
+    <div id="footer"></div>        
+    <script>        
+        fetch('footer.html')            
+            .then(response => response.text())            
+            .then(data => {                
+                document.getElementById('footer').innerHTML = data;            
+            });    
+    </script> 
+    </div>
+</p>
 </body>
 </html>
