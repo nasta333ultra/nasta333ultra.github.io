@@ -50,7 +50,7 @@ div.gallery {
   border: 1px solid #cce6ff;
   float: left;
   width: 25%;
-  height: 240px;
+  height: auto;
   background-color: #e6f2ff;
 }
 
