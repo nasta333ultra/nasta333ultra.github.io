@@ -13,32 +13,11 @@ header {
     padding: 10px;
 }
 
-.gallery {
-    margin: 20px;
-    padding: 20px;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
 }
-
-.image-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-}
-
-.image-item img {
-    background-color: white;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.image-item img {
-    width: 200px;
-    height: auto;
-    border-radius: 5px;
-}
-
 .footer {
     background-color: #333;
     color: white;
