@@ -49,5 +49,16 @@ Liška polární není globálně ohrožená, ale v některých oblastech čelí
 <p>
 Liška polární má nejhustší srst ze všech šelem, což jí umožňuje přežít teploty až −50 °C. Její packy jsou osrstěné, což jí pomáhá pohybovat se po sněhu a ledu.
 </p>
+    <p> 
+    <div id="footer"></div>        
+    <script>        
+        fetch('footer.html')            
+            .then(response => response.text())            
+            .then(data => {                
+                document.getElementById('footer').innerHTML = data;            
+            });    
+    </script> 
+    </div>
+</p>
 </body>
 </html>
