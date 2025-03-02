@@ -49,6 +49,16 @@ Medvěd lední je ohrožený kvůli úbytku mořského ledu způsobenému změno
 <p>
 Medvědi lední jsou vynikající plavci a mohou uplavat desítky kilometrů v ledové vodě. Jejich srst není skutečně bílá, ale průhledná – odráží světlo, což jim pomáhá s maskováním.
 </p>
-
+<p> 
+    <div id="footer"></div>        
+    <script>        
+        fetch('footer.html')            
+            .then(response => response.text())            
+            .then(data => {                
+                document.getElementById('footer').innerHTML = data;            
+            });    
+    </script> 
+    </div>
+</p>
 </body>
 </html>
