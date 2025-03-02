@@ -47,5 +47,17 @@ Medvěd hnědý není celosvětově ohrožen, ale v některých regionech čelí
 <p>
 Medvědi hnědí dokážou běžet rychlostí až 50 km/h. Během zimního spánku zpomalí metabolismus a nežerou ani nepijí.
 </p>
+
+    <p> 
+    <div id="footer"></div>        
+    <script>        
+        fetch('footer.html')            
+            .then(response => response.text())            
+            .then(data => {                
+                document.getElementById('footer').innerHTML = data;            
+            });    
+    </script> 
+    </div>
+</p>
 </body>
 </html>
